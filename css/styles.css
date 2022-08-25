@@ -626,7 +626,7 @@ body {
 /* BELOW 414PX */
 @media screen and (max-width: 414px) {
   .section-hero {
-    padding: 15rem;
+    padding: 10rem;
   }
 
   .section-featured {
