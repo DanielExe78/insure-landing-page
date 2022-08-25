@@ -559,7 +559,7 @@ body {
     text-align: center;
 
     gap: 2rem;
-    white-space: pre-line;
+
     font-size: 2rem;
   }
 
@@ -629,15 +629,30 @@ body {
     padding: 15rem;
   }
 
-  .main-title {
-    font-size: 4.2rem;
-  }
-
   .section-featured {
     padding: 10rem;
   }
 
   .secondary-title::before {
     top: 6rem;
+  }
+}
+
+/* BELOW 376PX */
+@media screen and (max-width: 23.5em) {
+  .main-title {
+    font-size: 5rem;
+  }
+
+  .introduction {
+    font-size: 1.6rem;
+  }
+
+  .find-out {
+    padding: 5rem 5rem;
+  }
+
+  .tertiary-title {
+    font-size: 3.8rem;
   }
 }
