@@ -11,7 +11,7 @@ btnNav.addEventListener("click", function () {
 });
 
 // STICKY NAV
-const footerHeight = footer.getBoundingClientRect().height;
+const footerHeight = footer.getBoundingClientRect().top;
 
 const stickyNav = function (entries) {
   const [entry] = entries;
